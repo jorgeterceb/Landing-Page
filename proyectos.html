@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ICON/icono.png" type="image/x-icon">
+    <title>Proyectos</title>
+</head>
+<style>
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    height: 90vh;
+}
+
+section#hero {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#hero h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+section#hero h2 {
+    font-size: 2rem;
+}
+
+.proyecto-section h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.proyectos-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proyectos-details {
+    border: 5px solid lightseagreen;
+    width: 300px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.proyectos-details img {
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: lightseagreen;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav li a:hover {
+    color: red;
+}
+
+div {
+    text-align: center;
+}
+</style>
+
+<body id="proyecto-fondo">
+        <header>
+            <nav>
+                <ul class="navegador">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="CV.html">CV</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="hero" class="proyecto-section">
+                <h1>Jorge Terrón Cebada</h1>
+                <h2>Administrador de Sistemas Informáticos en Red</h2>
+            </section>
+            <section id="proyectos" class="proyecto-section">
+                <h2>Proyectos Realizados</h2>
+                <div class="proyectos-list">
+                    <div class="proyectos-details">
+                        <img src="IMG/breaking bad.jpg">
+                        <h3>Página Web</h3>
+                        <p>Creación de una página web para la asignatura de Lenguaje de Marcas inspirada en Breaking Bad.</p>
+                        <a href="https://jorgeterceb.github.io/tarea_2_trimestre_jorge_terr-n">Enlace al proyecto</a>
+                    </div>
+
+                    <div class="proyectos-details">
+                        <img src="IMG/informático.png">
+                        <h3>Proyecto 2</h3>
+                        <p>Descripción del proyecto</p>
+                        <a href="#">Enlace al proyecto</a>
+                    </div>
+
+                    <div class="proyectos-details">
+                        <img src="IMG/informático.png">
+                        <h3>Proyecto 3</h3>
+                        <p>Descripción del proyecto</p>
+                        <a href="#">Enlace al proyecto</a>
+                    </div>
+
+                    <div class="proyectos-details">
+                        <img src="IMG/informático.png">
+                        <h3>Proyecto 4</h3>
+                        <p>Descripción del proyecto</p>
+                        <a href="#">Enlace al proyecto</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+</body>
+</html>
